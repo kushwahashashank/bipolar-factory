@@ -65,7 +65,7 @@ export default function Form() {
                 <div className="options">150+</div>
               </div>
             </div>
-            <button className="button">Continue</button>
+            <button className="button">CONTINUE</button>
           </div>
         </div>
       </div>
