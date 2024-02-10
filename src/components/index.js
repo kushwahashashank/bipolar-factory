@@ -1,3 +1,4 @@
 import Hero from "./hero/hero";
+import Form from "./from/form"
 
-export { Hero };
+export { Hero,Form };
