@@ -1,9 +1,9 @@
 import React from "react";
-import { Hero } from "@/components";
+import { Pages } from "@/components";
 const page = () => {
   return (
     <>
-      <Hero />
+      <Pages />
     </>
   );
 };

@@ -1,7 +1,7 @@
-import Hero from "./hero/hero";
+import Pages from "./pages/pages";
 import Form from "./from/form";
 import Tables from "./tables/tables";
 import Cards from "./cards/cards";
 import Charts from "./charts/charts";
 
-export { Hero, Form, Tables, Cards, Charts };
+export { Pages, Form, Tables, Cards, Charts };
