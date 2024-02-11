@@ -1,9 +1,11 @@
 import React from "react";
 import "./cards.css";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { Navigate } from "../index";
 const Cards = () => {
   return (
     <>
+      <Navigate />
       <div className="cards">
         <div className="cards-left-conatiner">
           <img

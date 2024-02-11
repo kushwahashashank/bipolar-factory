@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { Navigate } from "../index";
 import "./form.css";
 export default function Form() {
   const [user, setUser] = useState({
@@ -14,6 +15,7 @@ export default function Form() {
 
   return (
     <>
+      <Navigate />
       <div className="form_page">
         <div id="form">
           <div className="form_header">

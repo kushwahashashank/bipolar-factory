@@ -1,8 +1,10 @@
 import React from "react";
 import "./pages.css";
+import { Navigate } from "../index";
 const Pages = () => {
   return (
     <>
+    <Navigate/>
       <div className="pages">
         <div className="pages-container">
           <div className="header">

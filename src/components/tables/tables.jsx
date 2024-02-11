@@ -2,7 +2,7 @@ import React from "react";
 import "./tables.css";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { TbEdit } from "react-icons/tb";
-
+import { Navigate } from "../index";
 const Tables = () => {
   const tabledata = [
     {
@@ -63,6 +63,7 @@ const Tables = () => {
   ];
   return (
     <>
+    <Navigate/>
       <div className="table">
         <div className="table-conatiner">
           <div className="table-header">
